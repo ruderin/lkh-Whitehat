@@ -1,0 +1,54 @@
+body{
+  background-color: rgba(255,228,196,1);
+}
+
+
+h1 {
+  text-align: center;
+  border:5px solid orange;
+  padding:15px;
+  margin:15px;
+  display:block;
+}
+h2{
+  text-align: left;
+  border-right:3px solid orange;
+  padding-left:1px;
+  margin:1px;
+  width:150px;
+
+}
+
+#grid{
+  display:grid;
+  grid-template-columns:300px 1fr;
+}
+#개발내용{
+  text-align: center;
+}
+#이리야1{
+  display:grid;
+  grid-template-columns:300px 1fr;
+}
+#신음1{
+  text-align: center;
+
+}
+.휴식{
+  font-size:25px;
+  color:pink;
+  -webkit-text-stroke:0.5px
+
+}
+.이리야{
+  width:608px;
+  height:auto;
+  padding-left: 400px;
+}
+
+@media(max-width:1000px){
+  div{
+    display:none;
+    
+  }
+}
